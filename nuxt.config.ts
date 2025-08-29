@@ -1,5 +1,22 @@
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+function getBlogRoutes() {
+  const blogDir = path.join(__dirname, 'content/blog')
+  const files = fs.readdirSync(blogDir)
+  return files
+    .filter(f => f.endsWith('.md'))
+    .map(f => '/blog/' + f.replace(/\.md$/, ''))
+}
+
+
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
@@ -67,20 +84,32 @@ export default defineNuxtConfig({
   sitemap: {
     siteUrl: 'https://keblog.org',
     gzip: true,
-    routes: [
-      '/',
-      '/contact',
-      '/blog/lenin-doc',
-      '/blog/lenin-guide',
-      '/blog/island',
-      '/blog/howto-select-crampon',
-    ],
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+      const articles = await $content('blog').only(['path']).fetch()
+      return ['/', '/contact', ...articles.map(a => a.path)]
+    },
+//    routes: [
+//      '/',
+//      '/contact',
+//      ...getBlogRoutes(),
+//      '/blog/lenin-doc',
+//      '/blog/lenin-guide',
+//      '/blog/island',
+//      '/blog/howto-select-crampon',
+//    ],
+
+//routes: async () => {
+//  const { $content } = require('@nuxt/content')
+//  const articles = await $content('blog').only(['path']).fetch()
+//  return articles.map(article => article.path)
+//}
   },
-  nitro: {
-    prerender: {
-      routes: ['/sitemap.xml']
-    }
-  },
+//  nitro: {
+//    prerender: {
+//      routes: ['/sitemap.xml']
+//    }
+//  },
   googleFonts: {
     families: {
       'Lato': true,
