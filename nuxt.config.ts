@@ -76,6 +76,11 @@ export default defineNuxtConfig({
       '/blog/howto-select-crampon',
     ],
   },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
   googleFonts: {
     families: {
       'Lato': true,
