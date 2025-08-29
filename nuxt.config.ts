@@ -3,7 +3,7 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  ssr: true,  // SSRをオフにして静的サイト化
+  ssr: true, 
   site: { 
     url: 'https://keblog.org', 
     name: 'This is keblog.' 
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
     '@mdi/font/css/materialdesignicons.min.css',
   ],
   sitemap: {
-    hostname: 'https://keblog.org',
+    siteUrl: 'https://keblog.org',
     gzip: true,
     routes: [
       '/',
@@ -73,7 +73,7 @@ export default defineNuxtConfig({
       '/blog/lenin-doc',
       '/blog/lenin-guide',
       '/blog/island',
-      '/blog/howto-select-crampon'
+      '/blog/howto-select-crampon',
     ],
   },
   googleFonts: {
