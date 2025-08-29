@@ -84,11 +84,12 @@ export default defineNuxtConfig({
   sitemap: {
     siteUrl: 'https://keblog.org',
     gzip: true,
-    routes: async () => {
-      const { $content } = require('@nuxt/content')
-      const articles = await $content('blog').only(['path']).fetch()
-      return ['/', '/contact', ...articles.map(a => a.path)]
-    },
+//    routes: async () => {
+//      const { $content } = require('@nuxt/content')
+//      const articles = await $content('blog').only(['path']).fetch()
+//      return ['/', '/contact', ...articles.map(a => a.path)]
+//    },
+
 //    routes: [
 //      '/',
 //      '/contact',
@@ -105,11 +106,12 @@ export default defineNuxtConfig({
 //  return articles.map(article => article.path)
 //}
   },
-//  nitro: {
-//    prerender: {
-//      routes: ['/sitemap.xml']
-//    }
-//  },
+  nitro: {
+    prerender: {
+      // 静的生成したいページだけ prerender
+      routes: ['/contact']
+    }
+  },
   googleFonts: {
     families: {
       'Lato': true,
