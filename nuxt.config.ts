@@ -1,19 +1,19 @@
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
+//import fs from 'fs'
+//import path from 'path'
+//import { fileURLToPath } from 'url'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+// const __filename = fileURLToPath(import.meta.url)
+// const __dirname = path.dirname(__filename)
 
-function getBlogRoutes() {
-  const blogDir = path.join(__dirname, 'content/blog')
-  const files = fs.readdirSync(blogDir)
-  return files
-    .filter(f => f.endsWith('.md'))
-    .map(f => '/blog/' + f.replace(/\.md$/, ''))
-}
+//function getBlogRoutes() {
+//  const blogDir = path.join(__dirname, 'content/blog')
+//  const files = fs.readdirSync(blogDir)
+//  return files
+//    .filter(f => f.endsWith('.md'))
+//    .map(f => '/blog/' + f.replace(/\.md$/, ''))
+//}
 
 
 

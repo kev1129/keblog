@@ -41,6 +41,7 @@ const { data: post } = await useAsyncData(`blog-${slug}`, () => {
 .toc-title {
     font-size: 1.4rem;
     margin-bottom: 20px;
+    margin-top: 22px;
 }
 
 .toc ul {
