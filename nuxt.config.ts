@@ -79,33 +79,11 @@ export default defineNuxtConfig({
   css: [
     '/assets/scss/global.scss',
     '/assets/scss/article.scss',
-//    '/assets/scss/typora-base.scss',
     '@mdi/font/css/materialdesignicons.min.css',
   ],
   sitemap: {
     siteUrl: 'https://keblog.org',
     gzip: true,
-//    routes: async () => {
-//      const { $content } = require('@nuxt/content')
-//      const articles = await $content('blog').only(['path']).fetch()
-//      return ['/', '/contact', ...articles.map(a => a.path)]
-//    },
-
-//    routes: [
-//      '/',
-//      '/contact',
-//      ...getBlogRoutes(),
-//      '/blog/lenin-doc',
-//      '/blog/lenin-guide',
-//      '/blog/island',
-//      '/blog/howto-select-crampon',
-//    ],
-
-//routes: async () => {
-//  const { $content } = require('@nuxt/content')
-//  const articles = await $content('blog').only(['path']).fetch()
-//  return articles.map(article => article.path)
-//}
   },
   nitro: {
     prerender: {
