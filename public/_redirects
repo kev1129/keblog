@@ -1,0 +1,13 @@
+# 固定ページ（そのまま返す）
+/ 200
+/contact 200
+
+# ブログ記事ページ（個別に返す）
+/blog/howto-select-crampon 200
+/blog/lenin_fragment-thought 200
+/blog/island 200
+/blog/lenin-doc 200
+/blog/lenin-guide 200
+
+# それ以外のページは index.html で返す（catch-all）
+/* / 200
