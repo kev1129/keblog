@@ -19,6 +19,8 @@
 <script setup>
 const slug = useRoute().params.slug
 
+const route = useRoute()
+
 const { data: post } = await useAsyncData(`blog-${slug}`, () => {
   return queryCollection('blog').path(`/blog/${slug}`).first()
 })
@@ -32,8 +34,17 @@ useHead({
     { property: 'og:title', content: post.title },
     { property: 'og:description', content: post.description },
 //    { property: 'og:image', content: post.ogImage || '/default-og.png' },
-  ]
+  ],
+  link: [
+        {
+        rel: 'canonical',
+        href: `https://keblog.org${route.path}`
+        }
+    ]
 })
+
+
+
 </script>
 
 <style>
