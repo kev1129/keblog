@@ -1,5 +1,5 @@
 ---
-title: "断想 — レーニン峰への向き合い方、違和感"
+title: "断想 | レーニン峰、違和感"
 description: "レーニン峰に登った後に残った違和感と向き合った思考の断片"
 navigation: true
 draft: false

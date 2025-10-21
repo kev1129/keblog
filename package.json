@@ -17,6 +17,7 @@
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.0.3",
     "nuxt-gtag": "^3.0.3",
+    "rc9": "^2.1.2",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1",
     "zod-to-json-schema": "^3.24.6"
