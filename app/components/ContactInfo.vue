@@ -1,16 +1,15 @@
 <template>
     <v-container>
         <div class="contact">
-            <div class="contact-element">contact.keblog@gmail.com</div>
+            <!-- <div class="contact-element">contact.keblog@gmail.com</div> -->
             <div class="contact-element">
                 <NuxtLink to="https://www.instagram.com/shinadooo">instagram</NuxtLink>
             </div>
+            <!--             
             <div class="contact-element">
-                <NuxtLink to="https://buymeacoffee.com/shinado">buy me a coffee</NuxtLink>
-
-                
+                <NuxtLink to="https://buymeacoffee.com/shinado">buy me a coffee</NuxtLink>                
             </div>
-
+            -->
         </div>
     </v-container>
 </template>
