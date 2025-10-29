@@ -5,7 +5,6 @@ navigation: true
 draft: false
 date: 2025-10-29
 tags:
-  - Fragment of Thought
   - Photo
 ---
 
