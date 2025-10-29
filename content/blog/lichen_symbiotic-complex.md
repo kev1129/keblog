@@ -19,7 +19,7 @@ tags:
 <br><br><br>
 
 <div class="img-block">
-    <img src="/blog_img/dialogue-with-iwa_late-2025/2.jpg" alt="" width="48%" class="img-itself"/>
+    <img src="/blog_img/lichen_symbiotic-complex/2.jpg" alt="" width="48%" class="img-itself"/>
 </div>
 
 <br><br><br>
@@ -31,7 +31,7 @@ tags:
 <br><br><br>
 
 <div class="img-block">
-    <img src="/blog_img/dialogue-with-iwa_late-2025/4.jpg" alt="" width="48%" class="img-itself"/>
+    <img src="/blog_img/lichen_symbiotic-complex/4.jpg" alt="" width="48%" class="img-itself"/>
 </div>
 
 <br><br><br>
@@ -43,7 +43,7 @@ tags:
 <br><br><br>
 
 <div class="img-block">
-    <img src="/blog_img/dialogue-with-iwa_late-2025/6.jpg" alt="" width="48%" class="img-itself"/>
+    <img src="/blog_img/lichen_symbiotic-complex/6.jpg" alt="" width="48%" class="img-itself"/>
 </div>
 
 <br><br><br>
@@ -55,7 +55,7 @@ tags:
 <br><br><br>
 
 <div class="img-block">
-    <img src="/blog_img/dialogue-with-iwa_late-2025/8.jpg" alt="" width="48%" class="img-itself"/>
+    <img src="/blog_img/lichen_symbiotic-complex/8.jpg" alt="" width="48%" class="img-itself"/>
 </div>
 
 <br><br><br>
@@ -67,7 +67,7 @@ tags:
 <br><br><br>
 
 <div class="img-block">
-    <img src="/blog_img/dialogue-with-iwa_late-2025/10.jpg" alt="" width="48%" class="img-itself"/>
+    <img src="/blog_img/lichen_symbiotic-complex/10.jpg" alt="" width="48%" class="img-itself"/>
 </div>
 
 <br><br><br>
@@ -79,7 +79,7 @@ tags:
 <br><br><br>
 
 <div class="img-block">
-    <img src="/blog_img/dialogue-with-iwa_late-2025/12.jpg" alt="" width="88%" class="img-itself"/>
+    <img src="/blog_img/lichen_symbiotic-complex/12.jpg" alt="" width="88%" class="img-itself"/>
 </div>
 
 <br><br><br>
