@@ -75,4 +75,47 @@ tags:
     <img src="/blog_img/dialogue-with-iwa_late-2025/11.jpg" alt="" width="48%" class="img-itself"/>
 </div>
 
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/12.jpg" alt="" width="88%" class="img-itself"/>
+</div>
+
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/13.jpg" alt="" width="88%" class="img-itself"/>
+</div>
+
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/14.jpg" alt="" width="88%" class="img-itself"/>
+</div>
+
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/15.jpg" alt="" width="48%" class="img-itself"/>
+</div>
+
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/16.jpg" alt="" width="48%" class="img-itself"/>
+</div>
+
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/17.jpg" alt="" width="48%" class="img-itself"/>
+</div>
+
+<br><br><br>
+
+<div class="img-block">
+    <img src="/blog_img/dialogue-with-iwa_late-2025/18.jpg" alt="" width="88%" class="img-itself"/>
+</div>
+
+
 <br><br><br><br>
