@@ -1,5 +1,5 @@
 ---
-title: "lichen / symbiotic complex"
+title: "photo | lichen / symbiotic complex"
 description: ""
 navigation: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "拡張する肌・交歓する身体"
+title: "photo | 拡張する肌・交歓する身体"
 description: ""
 navigation: true
 draft: false

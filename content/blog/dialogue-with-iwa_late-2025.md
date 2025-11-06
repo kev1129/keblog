@@ -1,5 +1,5 @@
 ---
-title: "dialogue with iwa, late 2025"
+title: "photo | dialogue with iwa, late 2025"
 description: ""
 navigation: true
 draft: false
