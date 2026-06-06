@@ -11,7 +11,8 @@ Personal blog built with Nuxt.js and Nuxt Content.
 - **Deployment:** Netlify
 
 
-##　Features
+## Features
+
 - **Git-Based CMS (Content Management):** 
   No complex databases or WordPress setups required. New blog posts can be published instantly just by writing a simple Markdown (`.md`) file and pushing it to GitHub.
 - **Optimized for Reading & Visuals:**
