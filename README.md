@@ -1,6 +1,25 @@
-# Nuxt Minimal Starter
+# KEBLOG 
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Personal blog built with Nuxt.js and Nuxt Content.
+
+**[Live Demo](https://keblog.org/)**
+
+## Tech Stack
+- **Frontend:** Nuxt.js / Vue.js, HTML5, CSS3
+- **Styling:** SCSS
+- **Content Management:** Nuxt Content (Markdown-based)
+- **Deployment:** Netlify
+
+
+##　Features
+- **Git-Based CMS (Content Management):** 
+  No complex databases or WordPress setups required. New blog posts can be published instantly just by writing a simple Markdown (`.md`) file and pushing it to GitHub.
+- **Optimized for Reading & Visuals:**
+  The design is meticulously crafted to ensure that Markdown text is highly readable, and images are displayed beautifully with clean spacing and typography.
+- **Lightning-Fast Performance:** 
+  Built as a static site (SSG), ensuring top-tier loading speeds and excellent SEO out of the box.
+- **Responsive Design:** 
+  Clean, readable layout optimized beautifully for both mobile and desktop readers.
 
 ## Setup
 
